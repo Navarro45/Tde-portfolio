@@ -1,0 +1,104 @@
+.container {
+    margin: 100px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #252525
+}
+
+h2{
+    
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px;
+    padding: 20px;
+    width: 240px ;
+    height: 350px ;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.card img{
+    justify-content: flex-start;
+    height: 200px;
+    width: 200px;
+    border-radius: 5%; 
+}
+
+.card a{
+    text-decoration: none;
+    color: #252525;
+    font-size: 30px;
+    font-family: sans-serif;
+    flex: content;    
+}
+
+.card a:hover{
+    color: crimson;
+}
+
+.retangulo{
+    background-color: rgb(139, 19, 57);
+    height: 190px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;    
+}
+.retangulo a{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 45px;
+    color: #252525;
+}
+.retangulo a:hover{
+    color: #f7f7f7;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:antiquewhite;
+}
+
+.box{
+    flex: content;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+
+.container .autor img{
+    height: 300px;
+    width: 300px;
+    filter: blur(20%);
+    border-radius: 5%;
+}
+
+.container .autor p{
+    margin-left: 30px;
+    color: #252525;
+    font-size: 20px;
+    line-height: 2.0;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.container .autor {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,70 @@
+.container {
+    background-color: #f2f2f2;
+    margin: 100px;
+    padding: 30px;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 18, 18);
+    font-size: 40px;
+    
+    
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.retangulo{
+    background-color: rgb(139, 19, 57);
+    height: 200px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;  
+}
+.retangulo a{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 45px;
+    color: #252525;
+}
+.retangulo a:hover{
+    color: #f7f7f7;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    
+}
+
+
+p {
+    margin-left: 30px;
+    color: #252525;
+    font-size: 20px;
+    line-height: 2.0;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+ul{
+    margin-left: 30px;
+    color: #252525;
+    font-size: 20px;
+    line-height: 2.0;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+ol{
+    margin-left: 30px;
+    color: #252525;
+    font-size: 20px;
+    line-height: 2.0;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
